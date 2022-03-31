@@ -18,9 +18,6 @@
 loadkeys $LANG_KBD
 ls /sys/firmware/efi/efivars
 
-# Check Internet connection with ICMP
-ping google.com
-
 # Timedatectl settings
 timedatectl set-ntp true
 
